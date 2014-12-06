@@ -8,6 +8,10 @@ var autoprefixer = require('gulp-autoprefixer');<% if (includeLess) { %>
 var less = require('gulp-less');
 var sourcemaps = require('gulp-sourcemaps');<% } else if (includeSass) { %>
 var sass = require('gulp-ruby-sass');<% } %>
+var sassOptions = { // The options to be passed to sass()
+  style: 'expanded',
+  'sourcemap=none': true
+}
 
 <% if (includeLess || includeSass) { %>
 function handleError(err) {
