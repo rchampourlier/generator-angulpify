@@ -33,7 +33,6 @@ This generator relies on several technologies, make sure your system has:
 - [Bower](http://bower.io/#install-bower)
 - [Gulp](http://gulpjs.com)
 - [LiveReload](http://feedback.livereload.com/knowledgebase/articles/86242-how-do-i-install-and-use-the-browser-extensions)
-- [[Ruby](https://www.ruby-lang.org/en/installation/) + [Sass](http://sass-lang.com/install)] | Optional
 
 
 ## Getting Started
